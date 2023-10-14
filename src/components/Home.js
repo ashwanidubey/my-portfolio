@@ -4,12 +4,14 @@ export default function Home({count,setCount}) {
     useEffect(()=>{
         setCount(1);
     })
+    //const imglink="https://i.postimg.cc/HL1ZzpPX/IMG20221221165736-removebg-preview.jpg";
+    const imglink="https://i.postimg.cc/NfrNmW39/91-88878-02756-20210123-161741.jpg"
     return (
         <div className='py-4'>
             <div className="card mb-3 py-4">
                 <div className="row g-0">
                     <div className="col-md-4 px-3 py-5 d-flex align-items-center justify-content-center">
-                        <img className="rounded-5" src="https://i.postimg.cc/HL1ZzpPX/IMG20221221165736-removebg-preview.jpg" alt="SomeThing Wromh" />
+                        <img className="rounded-5" src={imglink} alt="SomeThing Wromh" />
                     </div>
                     <div className="col-md-8 px-3">
                         <div className="card-body">

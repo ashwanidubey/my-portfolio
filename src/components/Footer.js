@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <p className="text-light">
-                            Latest Update: 10 Oct 2023
+                            Latest Update: 14 Oct 2023
                             <br />
                             Have questions or want to connect?
                             <br />
